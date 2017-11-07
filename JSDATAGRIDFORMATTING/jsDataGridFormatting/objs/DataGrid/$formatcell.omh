@@ -1,0 +1,12 @@
+Calculate lValue as iList.[pRow].[pCol]
+If pCol<>1
+	Calculate lValue as jst(lValue,'n2')
+End If
+
+If iList.[pRow].iTotal<0
+	Calculate iHtml as styledtohtml(con(style(kEscColor,kRed),style(kEscStyle,kBold),lValue))
+Else
+	Calculate iHtml as styledtohtml(con(style(kEscColor,kDarkGreen),style(kEscStyle,kItalic),lValue))
+End If
+
+Quit method iHtml

@@ -1,0 +1,3 @@
+For lLine from 1 to iList.$linecount step 1
+	Calculate iList.[lLine].iTotal as iList.[lLine].iMoneyIn-iList.[lLine].iMoneyOut
+End For

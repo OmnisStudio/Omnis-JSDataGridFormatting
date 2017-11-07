@@ -1,0 +1,12 @@
+On evClick
+	
+On evDoubleClick
+	
+On evCellChanged
+	Do method calcTotals
+	Do $cinst.$objs.DataGrid.$hcell.$assign(pHorzCell)
+	Do $cinst.$objs.DataGrid.$vcell.$assign(pVertCell)
+	
+On evHeaderClick
+	
+On evHeadedListDisplayOrderChanged

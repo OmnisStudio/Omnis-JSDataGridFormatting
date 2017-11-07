@@ -1,0 +1,17 @@
+;  Enter your initialization code here
+
+Do iList.$define(iMonth,iMoneyIn,iMoneyOut,iTotal)
+Do iList.$add('January',200,500)
+Do iList.$add('February',600,500)
+Do iList.$add('March',500,515)
+Do iList.$add('April',700,480)
+Do iList.$add('May',725,530)
+Do iList.$add('June',800,540)
+Do iList.$add('July',950,550)
+Do iList.$add('August',1000,555)
+Do iList.$add('September',500,600)
+Do iList.$add('October',210,530)
+Do iList.$add('November',200,530)
+Do iList.$add('December',175,540)
+
+Do method calcTotals
